@@ -1,22 +1,62 @@
 module.exports = {
+  content: ['./src/**/*.{html,js}'],
   theme: {
-    screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
     },
-    extend: {},
-  },
-  variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+    extend: {
+      boxShadow: {
+        md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+      },
+      colors: {
+        gray: {
+          100: '#f7fafc',
+          200: '#edf2f7',
+          300: '#e2e8f0',
+          400: '#cbd5e0',
+          500: '#a0aec0',
+          600: '#718096',
+          700: '#4a5568',
+          800: '#2d3748',
+          900: '#1a202c',
+        },
+        indigo: {
+          100: '#ebf4ff',
+          200: '#c3dafe',
+          300: '#a3bffa',
+          400: '#7f9cf5',
+          500: '#667eea',
+          600: '#5a67d8',
+          700: '#4c51bf',
+          800: '#434190',
+          900: '#3c366b',
+        },
+        blue: {
+          100: '#ebf8ff',
+          200: '#bee3f8',
+          300: '#90cdf4',
+          400: '#63b3ed',
+          500: '#4299e1',
+          600: '#3182ce',
+          700: '#2b6cb0',
+          800: '#2c5282',
+          900: '#2a4365',
+        },
+      },
+      fontFamily: {
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      },
+    },
   },
   plugins: [],
 }

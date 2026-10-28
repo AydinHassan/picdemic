@@ -16,6 +16,6 @@ npm run dev
 1. Fork and clone repo
 2. Add entries in `src/index.html` 
 3. Check how it looks
-4. Run `npm run build` to build production assets
+4. Run `npm run build` to check the production build (Node 20.19+; `dist/` is not committed)
 5. Branch, commit and push
 6. Send a PR
