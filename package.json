@@ -4,11 +4,11 @@
   "description": "Photography resources",
   "dependencies": {},
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "cross-env": "^7.0.2",
-    "cssnano": "^4.1.10",
+    "cssnano": "^9.9.0",
     "parcel-plugin-clean-dist": "0.0.6",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^4.3.3"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development npx parcel src/index.html",
