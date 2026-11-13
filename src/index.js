@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {
         const links = document.querySelectorAll("#lnav li");
         for(let link of links) {
-            link.classList.remove('bg-gray-300', 'rounded', 'text-gray-800');
+            link.classList.remove('bg-gray-300', 'rounded-sm', 'text-gray-800');
             link.classList.add('text-gray-600', 'hover:text-gray-800');
         }
     }
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {
         notActive();
 
-        active.classList.add('bg-gray-300', 'rounded', 'text-gray-800');
+        active.classList.add('bg-gray-300', 'rounded-sm', 'text-gray-800');
         active.classList.remove('text-gray-600', 'hover:text-gray-800');
     }
 
